@@ -1,116 +1,119 @@
 *{
-    padding: 0;
-    margin:0;
-    font-family: 'Courier New', Courier, monospace;
+    padding:20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 body{
+    background-color:rgba(128, 128, 128, 0.158);
     display: flex;
-    background-image: url('./images/pexels-moose-photos-1037995.jpg');
-    background-size: cover;
-    flex-direction: column;
+    height: 100%;
     justify-content: center;
     align-items: center;
     height: 100vh;
+}
+.main{
+    border-radius: 10px;
+    display: flex;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
 
 }
-.container{
-    display: flex;
-    background-color: white; 
+.left{
+    flex:0.5;
+    background-image: url(./pexels-eberhard-grossgasteiger-2310713.jpg);
+    background-size: cover, no repeat;
     flex-direction: column;
-    
-    align-items: center;   
-    height: 700px;
-    width: 600px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 50px 40px 70px 40px;
+    margin bottom: 20px;
+    border-radius:10px 0px 0px 10px;
+    }
 
 h1{
     font-size: 50px;
+    margin:0px 0px;
+    font-weight: 800;
     display: flex;
     justify-content: center;
-    align-items: center; 
-    padding-bottom: 20px;
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 h2{
-    font-size: 15px;
+    font-size: 30px;
+    margin: 20px 20px;
+    font-weight: 100;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: 100;
-    padding-bottom: 20px;
-
-
 }
-input{
+
+.button1{
+    cursor: pointer;
+    padding: 20px 20px 20px 20px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+    margin: 80px 150px;
+    padding: 10px 60px;
+}
+
+.right{
+    flex: 0.5;
     display: flex;
     flex-direction: column;
-    border-style: solid;    
-    border-radius: 5px;
-    align-items: flex-start;
-    padding: 15px 80px;
-    margin-bottom: 20px;
-
-}
-
-
-}
-bottom{
-    display: flex;
-    flex-direction: row;
-}
-button{
-    background-color: rgba(127, 255, 212, 0.692);
-    color:black;
-    outline: none;
-    border: 1px solid;
-    padding: 10px 50px;
-    margin: 20px 20px;
-    cursor: pointer;
-    display: flex;
+    justify-content: center;
     align-items: center;
-    margin-left: 80px;
-    margin-bottom: 20px;
-    margin-top: 30px;
-    border-radius: 5px;
-    font-size: 20px;
+    background-color: white;
+    padding: 50px 60px;
+    margin bottom: 0px;
+    border-radius:0px 10px 10px 0px;
+
 }
 
+h3{
+    font-size: 50px;
+    font-weight: 600;
+    padding: 0px;
+    text-shadow: 0px;
+}
+
+h4{
+   font-size: 15px; 
+    font-weight: 100;
+    padding-bottom: 0px;
+    justify-content: center;
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+input{
+    display: block;
+    margin-bottom: 20px;
+    padding: 20px 120px;
+    margin-left: 30px;
+    border-radius: 5px;
+    border-width: 1px;
+    background-color: rgba(128, 128, 128, 0.156);
+    align-content: flex-end;
+    
+}
 
 button2{
-    outline: none;
-    border: 0;
-    padding: 10px 30px;
-    margin: 20px 20px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;    
-    margin-bottom: 20px;
-    margin-top: 20px;
-    border-radius: 5px;
-    text-decoration:underline;
-    margin-left: 0;
-}
-
-button3{    
-    border-width: 1px;
-    padding: 10px 30px;
-    margin: 20px 20px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    margin-left: 0px;
-    margin-bottom: 20px;
-    margin-top: 40px;
-    border-radius: 5px;
-    border: 1px solid;
-    background-color: gainsboro;
-    display: inline flex;
-    justify-content: center;
-    
-
-}
-}
+        cursor: pointer;
+        padding: 10px 60px;
+        background-color: rgb(147, 187, 227);
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        border-radius: 5px;
+        font-size: 15px;
+        color: white;
+        margin-top: 20px;
 }
